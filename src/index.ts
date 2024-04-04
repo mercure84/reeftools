@@ -1,7 +1,7 @@
 import { microsiemensPerCmToPpm, ppmToMicrosiemensPerCm } from "./conductivity";
 import { seaWaterDensity, seaWaterSalinity } from "./seaWater";
 
-export { seaWaterDensity };
-export { seaWaterSalinity };
-export { ppmToMicrosiemensPerCm };
-export { microsiemensPerCmToPpm };
+exports.microsiemensPerCmToPpm = microsiemensPerCmToPpm;
+exports.ppmToMicrosiemensPerCm = ppmToMicrosiemensPerCm;
+exports.seaWaterDensity = seaWaterDensity;
+exports.seaWaterSalinity = seaWaterSalinity;
